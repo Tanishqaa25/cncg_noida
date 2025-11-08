@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: chatbot
-        image: gemini-chatbot:latest
+        image: chiyatanishqa/gemini-chatbot:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8501
