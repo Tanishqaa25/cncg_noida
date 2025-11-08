@@ -6,7 +6,7 @@ metadata:
   labels:
     app: gemini-chatbot
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     app: gemini-chatbot
   ports:
